@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="yourcolor">Choose your color</label>
+            <input id="yourcolor" type="color">
+        </div>
+        <div>
+            <label for="birthday">Enter your birthday date</label>
+            <input id="birthday" type="date">
+        </div>
+        <div>
+            <label for="departure">Day of departure</label>
+            <input id="departure" type="datetime-local">
+        </div>
+        <div>
+            <label for="email">Enter your email</label>
+            <input id="email" type="email">
+        </div>
+        
+        <div>
+            <label for="myfile">Open file</label>
+            <input id="myfile" type="file" name="myfile"><br>
+            
+        </div><br>
+        <div>
+            <input type="image" src="images/smile.png" alt="Submit" width="72" height="72">
+        </div>
+        <div>
+            <label for="month">Month your birth</label>
+            <input id="month" type="month">
+        </div>
+        <div>
+            <label for="quantity">Enter quantity</label>
+            <input id="quantity" type="number" name="quantity" min="1" max="10">
+        </div>
+        <div>
+            <label for="vol">Volume</label>
+            <input id="vol" type="range">
+        </div>
+        <div>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <input type="hidden" id="custId" name="custId" value="123">
+            <input type="submit" value="Submit">
+
+        </div>
+        <div>
+            <label for="phonenumber">Enter your phone number</label>
+            <input id="phonenumber" type="tel" placeholder="+380(xx)xxx-xx-xx" required>
+        </div>
+        <div>
+            <label for="gsearch">Search Google:</label>
+            <input type="search" id="gsearch" name="gsearch" disabled>
+        </div>
+
+        <div>
+            <label for="time">Visit time</label>
+            <input id="time" type="time">
+        </div>
+        <div>
+            <label for="homepage">Add your homepage</label>
+            <input id="homepage" name="homepage" type="url">
+        </div>
+        <div>
+            <label for="week">Select a week:</label>
+            <input type="week" id="week" name="week">
+        </div>
+    </form>
+
+    <!-- Table -->
+     <h3>
+        Таблиця з стовпцями
+     </h3>
+     <table border="3" style="width: 80%;">
+        <thead>
+            <tr>
+                <th>
+                Назва книги
+                </th>
+                <th>
+                Рік випуску
+                </th>
+                <th>
+                Рейтинг
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Колекціонер
+                </td>
+                <td>
+                    2021
+                </td>
+                <td>
+                    5
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Гаррі Поттер
+                </td>
+                <td>
+                    1997
+                </td>
+                <td>
+                    5
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Гобіт
+                </td>
+                <td>
+                    2020
+                </td>
+                <td>
+                    4.5
+                </td>
+            </tr>
+        </tbody>
+        
+
+
+     </table>
+     <!-- Додаткова робота -->
+      <h3>
+        Таблиця
+      </h3>
+      <style>
+        table{
+            border-collapse:collapse;
+        }
+        td{
+            border: 3px solid black;
+        }
+      </style>
+      <table border="7" style="width: 100%;">
+        <tbody align="center">
+            <tr>
+                <td colspan="2">
+                    text
+                </td>
+                
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td colspan="2">
+                    text
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td colspan="2">
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2">
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td rowspan="4">
+                    text
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    text
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+                <td>
+                    text
+                </td>
+            </tr>
+        </tbody>
+      </table>
+</body>
+</html>
