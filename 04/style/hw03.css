@@ -1,0 +1,16 @@
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+h3{
+    font-size: 32px;
+}
+.center-content{
+    text-align: center;
+}
+.right-content{
+    text-align: right;
+}
+p{
+    font-size: 16px; 
+}
