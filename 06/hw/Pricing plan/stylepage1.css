@@ -1,0 +1,126 @@
+body{
+    background: rgb(247, 250, 252);
+    width: 1440px;
+    height: 1026px;
+    margin: 0 auto;
+    font-family: Roboto;
+}
+h2{
+   margin: 82px 594px 0px 600px;
+   max-width: 246px;
+   height: 47px;
+   color: rgb(45, 55, 72);
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 47px;
+}
+.header-text{
+   margin: 5px 592px 0px 592px;
+   max-width: 256px;
+   height: 19px;
+   font-size: 16px;
+   font-weight: 700;
+   color: rgb(45, 55, 72);
+}
+.header-link{
+   width: 1113px;
+   height: 63px;
+   margin-top: 56px;
+   margin-left: 169px;
+   margin-right: 158px;
+   border-bottom: 1px solid rgb(203, 213, 224);
+}
+.more-details{
+   width: 306px;
+   height: 19px;
+   font-size: 16px;
+   font-weight: 400;
+   color: rgb(74, 85, 104);
+}
+a{
+   color: rgb(43, 108, 176);
+}
+
+.i-flex{
+    box-shadow: 0px 4px 4px 0px rgba(152, 149, 149, 0.25);
+    display: flex;
+    justify-content: space-between;
+    column-gap: 26px;
+    max-width: 1113px;
+    margin: 0 auto;
+    
+}
+.pricing-plan{
+   background: rgb(255, 255, 255);
+   width: 350px;
+   height: 554px;
+   margin-top: 97px;
+}
+.pricing-plan:nth-child(2){
+   height: 565px;
+   margin-top: 56px;
+}
+ h1{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+ }
+ h3{
+    color: rgb(45, 55, 72);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 28px;
+    padding-bottom: 36px;
+    margin: 0;
+ }
+.plan-description {
+    color: rgb(74, 85, 104);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    max-width: 302px;
+    padding: 37px 24px 10px 24px;
+    margin: 0;
+ }
+.short-description{
+   font-size: 16px;
+   color: rgb(0, 0, 0);
+   font-weight: 700;
+   line-height: 19px;
+   padding: 34px 94px 0px 94px;
+   margin: 0;
+ }
+ .button{
+   background-color: rgb(237, 242, 247);
+   color: rgb(45, 55, 72);
+   font-family: Roboto;
+   font-size: 16px;
+   font-weight: 700;
+   width: 350px;
+   height: 70px;
+   margin-top: 45px;
+   padding: 1px;
+   cursor: pointer;
+   border: none;
+  }
+  .button-middle{
+   background-color: rgb(234, 7, 116);
+   color: rgb(247, 250, 252);
+   font-size: 16px;
+   font-weight: 700;
+   width: 350px;
+   height: 70px;
+   margin-top: 45px;
+   padding: 1px;
+   cursor: pointer;
+   border: none;
+  }
+
