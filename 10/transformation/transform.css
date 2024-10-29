@@ -42,3 +42,10 @@ button:hover{
     transform: rotate(45deg) scale(1.2) translate(20px,-10px);
 
 }
+svg path{
+    fill: blue;
+}
+.nice-button:hover .path-el{
+    stroke: black;
+    stroke-width: 3px;
+}

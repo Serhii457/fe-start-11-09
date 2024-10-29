@@ -43,7 +43,6 @@ a{
 }
 
 .i-flex{
-    box-shadow: 0px 4px 4px 0px rgba(152, 149, 149, 0.25);
     display: flex;
     justify-content: space-between;
     column-gap: 26px;
@@ -119,7 +118,7 @@ a{
    font-weight: 700;
    width: 350px;
    height: 70px;
-   margin-top: 45px;
+   margin-top: 56px;
    padding: 1px;
    cursor: pointer;
    border: none;
