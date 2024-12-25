@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Підключаємо Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Підключаємо Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Підключаємо шрифт Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Підключаємо CSS -->
+    <link rel="stylesheet" href="hwbootstrap.css">
+  </head>
+
+  <body>
+    <header class="container my-5 container-header">
+      <nav class="navbar navbar-expand-lg bg-body-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="tere-logo-header" src="images/Tere_header.png" alt="">
+          </a>
+          <button class="navbar-toggler navbar-toggler-myStyle" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4">
+              <li class="nav-item">
+                <a class="nav-link nav-link-text" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-text" href="#">How tere works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-text" href="#">Tere benefits</a>
+              </li>
+              <li class="nav-item d-none d-lg-block">
+              <button class="btn btn-header d-none d-lg-block">Help center</button>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Next part -->
+  <main>
+    <div class="container my-5">
+      <div class="row align-items-center">
+          <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
+              <img src="images/Main image.png" alt="" class="img-fluid" style="width: 620px; height: auto;">
+          </div>
+          <div class="col-lg-6">
+              <h1 class="text-center text-lg-start text-my-h1">DOWNLOAD APP, SAVE MONEY, MAKE FRIENDS!</h1>
+              <p class="lead lead-my text-center text-lg-start">It’s simple and it’s free. Play your part in reducing carbon footprint
+                  and help Mother Nature sustain its beauty. So what are you waiting for? Let’s ride together!</p>
+                  <div class="buttons d-flex gap-2 text-center"> 
+                    <a href="#"><img src="images/Download_playmarket.png" alt="" style="width: 100%; height: auto;"></a>
+                <a href="#"><img src="images/Download_appstore.png" alt="" style="width: 100%; height: auto;"></a>
+          </div>
+          </div>
+      </div>
+  </div>
+      
+  <!-- Next part -->
+  <div class="container my-5 container-phone-submit">
+    <div class="p-5 d-flex flex-column flex-md-row align-items-center text-center text-md-start gap-3">
+      <div class="flex-grow-1">
+        <p class="my-p mb-0">Let’s go. Get a link to download the app.</p>
+      </div>
+      <form class="d-flex flex-column flex-md-row align-items-center gap-3 w-100">
+        <input type="text" class="form-control input-phone"  placeholder="Enter mobile phone number">
+        <button type="submit" class="btn btn-dark apply-btn">
+          APPLY TO DRIVE
+        </button>
+      </form>
+    </div>
+  </div>
+
+<!-- Next part -->
+  <div class="container my-5 px-4 py-5 my-5 text-center">
+    <h1 class="display-5 fw-bold text-body-emphasis">
+      <span class="green-text">TERE</span> BENEFITS
+    </h1>
+  </div>
+    
+  <!-- Benefit 01 -->
+    <div class="container my-5">
+      <div class="container text-center offset-md-1 col-lg-9 container-bg-white">
+        <div class="row align-items-center">
+          <div class="col-md-8 themed-grid-col d-flex flex-column order-1 order-md-1">
+            <div class="d-flex align-items-center mb-3">
+              <p class="number-text mb-0">01.</p>
+              <h2 class="text-start px-lg-1 heading-text ms-3 mb-0" id="benefit-01">Flexible working hours</h2>
+            </div>
+            <div class="d-md-none mb-3">
+              <img src="images/01_Flexible working hours.png" class="img-fluid" alt="Flexible working hours">
+            </div>
+            <p class="paragraph-text text-center ms-3 text-lg-start" id="benefit-01">
+              You can decide when, and how much time you want to drive.
+            </p>
+          </div>
+          <div class="col-md-4 themed-grid-col d-none d-md-block order-md-2">
+            <img src="images/01_Flexible working hours.png" class="img-fluid" alt="Flexible working hours">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<!-- Benefit 02 -->    
+<div class="container my-5">
+  <div class="row align-items-center offset-md-2 container-bg-white">
+    <div class="col-md-6 d-none d-md-block">
+      <img src="images/02_Earnings.png" class="img-fluid" alt="Earnings">
+    </div>
+    <div class="col-md-6 text-center text-md-start">
+      <div class="d-flex align-items-center justify-content-center justify-content-md-start mb-3">
+        <p class="number-text mb-0">02.</p>
+        <h2 class="heading-text ms-3 mb-0">Earnings</h2>
+      </div>
+      <div class="d-block d-md-none mb-3">
+        <img src="images/02_Earnings.png" class="img-fluid" alt="Earnings">
+      </div>
+      <p class="paragraph-text" id="benefit-02">
+        By driving with tere you can earn more.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!--Benefit 03 -->
+<div class="container my-5">
+  <div class="container text-center offset-md-1 col-lg-9 container-bg-white">
+    <div class="row align-items-center">
+      <div class="col-md-8 themed-grid-col d-flex flex-column order-1 order-md-1">
+        <div class="d-flex align-items-center mb-3">
+          <p class="number-text mb-0">03.</p>
+          <h2 class="text-start px-lg-1 heading-text ms-3 mb-0" id="benefit-03">Customer 
+            support 24/7</h2>
+        </div>
+        <div class="d-md-none mb-3">
+          <img src="images/01_Flexible working hours.png" class="img-fluid" alt="Flexible working hours">
+        </div>
+        <p class="paragraph-text text-center ms-3 text-lg-start" id="benefit-01">
+          Tere is a local service provider and we are proud to support you in your local language. We are proud to be at your service 24/7!
+        </p>
+      </div>
+      <div class="col-md-4 themed-grid-col d-none d-md-block order-md-2">
+        <img src="images/03_Customer support.png" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+
+<footer class="container my-5">
+  <div class="row py-5">
+    <div class="col-12 col-md text-center text-md-start mb-4 mb-md-0">
+      <a href="/" class="d-flex justify-content-center justify-content-md-start align-items-center link-body-emphasis text-decoration-none">
+        <img src="images/Tere_footer.png" alt="Logo-footer" class="img-fluid">
+      </a>
+    </div>
+    <div class="col-12 col-md text-center text-md-start mb-4 mb-md-0 order-3 order-md-2">
+      <h5>Be Our Friend</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary text-decoration-none" href="#">3, Season Park, Jakarta</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">support@foodyar.co,id</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">021 - 1111 - 2222</a></li>
+      </ul>
+    </div>
+    <div class="col-12 col-md text-center text-md-start mb-4 mb-md-0 order-4 order-md-3">
+      <h5>Be Our Friend</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary text-decoration-none" href="#">3, Season Park, Jakarta</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">support@foodyar.co,id</a></li>
+        <li><a class="link-secondary text-decoration-none" href="#">021 - 1111 - 2222</a></li>
+      </ul>
+    </div>
+    <div class="col-12 col-md text-center mb-4 mb-md-0 order-2 order-md-4">
+      <a href="#" class="d-inline-block">
+        <img src="images/Download_playmarket.png" alt="Download Play Market" class="img-fluid">
+      </a>
+    </div>
+    <div class="col-12 col-md text-center mb-4 mb-md-0 order-1 order-md-5">
+      <a href="#" class="d-inline-block">
+        <img src="images/Download_appstore.png" alt="Download App Store" class="img-fluid">
+      </a>
+    </div>
+  </div>
+  <div class="row border-top">
+    <div class="col-12">
+      <p class="text-center py-3 text-footer">All Rights Reserved tere by Codematics 2022</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

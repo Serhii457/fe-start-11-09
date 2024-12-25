@@ -1,0 +1,142 @@
+.tere-logo-header{
+    width: 180px;
+    height: 51px;
+}
+.btn-header{
+    width: 182px;
+    height: 50px;
+    border-radius: 5.95px;
+    background: rgb(117, 191, 122);
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    border: none;
+}
+.nav-link-text{
+    color: rgb(0, 0, 0);
+    font-size: 17.16px;
+    font-weight: 500;
+    line-height: 21px;
+}
+.navbar-toggler-myStyle{
+    color: rgb(0, 0, 0);
+    border: none;
+}
+.container-header{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+main{ 
+    background: rgb(249, 249, 249);
+    padding-bottom: 55px;
+}
+.text-my-h1{
+    font-size: 60.73px;
+    text-align: left;
+}
+.lead-my{
+    width: 85%;
+    color: rgb(158, 157, 162);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 27px;
+}
+.link-main{
+    margin-top: 62px;
+}
+.container-phone-submit{
+    border-radius: 10px;
+    background: rgb(117, 191, 122);
+}
+.my-p{
+    color: rgb(255, 255, 255);
+    font-size: 24.6px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+}
+.container-lets-go{
+    width: 258px;
+    height: 56px;
+    margin: 55px 72px;
+}
+.green-text{
+    color: rgb(117, 191, 122);
+}
+.number-text {
+    color: rgb(117, 191, 122);
+    font-size: 88px;
+    font-weight: 500;
+    line-height: 118.8px;
+    
+}
+.heading-text {
+    width: 45%;
+    color: rgb(0, 0, 0);
+    font-size: 33.94px;
+    font-weight: 600;
+    line-height: 32.5px;
+    
+}
+#benefit-01{
+    width: 62%;
+}
+#benefit-02{
+    width: 58%;
+}
+#benefit-03{
+    width: 62%;
+}
+.paragraph-text {
+    color: rgb(158, 157, 162);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 23px;
+    
+}
+.apply-btn{
+    width: 260px;
+    height: 67px;
+    border-radius: 4.39px;
+    background: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+    padding: 0;
+}
+.input-phone{
+    width: 100%;
+    height: 67px;
+    border-radius: 4.39px;
+    background: rgb(255, 255, 255);
+    color: rgb(218, 218, 218);
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 35px;
+    border: none;
+    max-width: 499px;
+}
+.container-bg-white{
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    max-width: 1060px;
+}
+.text-footer{
+    color: rgb(117, 191, 122);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+@media (max-width: 768px) {
+    footer p.text-footer{
+      color: rgb(158, 157, 162);
+    }
+    .row.border-top {
+        border-top: none !important;
+      }
+  }
+  
+  
+  
